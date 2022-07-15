@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 3px;
+  padding: 5px 5px;
+  box-sizing: border-box;
   position: fixed;
   top: 0;
   width: 100%;
