@@ -5,6 +5,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.settings-list .settings__setting:nth-child(3) {
+  padding-bottom: 50px;
 }
 
 .settings__setting i {
@@ -15,4 +20,24 @@
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.settings__setting-column__new {
+  display: block;
+  background-color: tomato;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 10px;
 }

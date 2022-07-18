@@ -13,6 +13,7 @@
 
 .icon-row__icon i {
   font-size: 35px;
+  display: flex;
 }
 
 .icon-row__icon span {

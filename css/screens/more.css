@@ -13,10 +13,10 @@
 }
 
 .more-suggestions__icon {
-  max-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 30px;
 }
 
 .more-suggestions__icon-image {
@@ -33,4 +33,11 @@
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
+}
+
+.more-suggestions__icon-friends {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  border: 1px solid var(--yellow);
 }
