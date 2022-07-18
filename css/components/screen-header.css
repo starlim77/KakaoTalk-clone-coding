@@ -4,6 +4,8 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
 }
 
 .screen-header__title {
@@ -12,5 +14,32 @@
 }
 
 .screen-header__icons span {
-  margin-left: 50px;
+  margin-left: 30px;
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+.screen-header__icons__notification {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  right: -10px;
+  bottom: 13px;
+}
+
+@keyframes rotategear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotategear 1s linear infinite;
 }
