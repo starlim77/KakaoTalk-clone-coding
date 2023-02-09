@@ -1,6 +1,6 @@
-# kokoa talk Clone coding
+# KakaoTalk Clone coding
 
-HTML, CSS
+HTML, CSS를 이용한 카카오톡 클론 코딩
 
 
 <div style="display: flex;">
